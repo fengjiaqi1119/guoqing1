@@ -1,0 +1,4 @@
+1.js的历史题，每天一小时自测
+2.练习git常用api，并将一个项目提交到github上
+3.预习angular指令 
+4.练习gulp

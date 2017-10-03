@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="column-container swiper-container">
+    <div class="column-wrapper swiper-wrapper">
+        <div class="column-slide swiper-slide">
+            <div class="column-bg">
+                <img src="images/1.jpg">
+            </div>
+            <p>分类</p>
+        </div>
+        <div class="column-slide swiper-slide">
+            <div class="column-bg">
+                <img src="images/2.jpg">
+            </div>
+            <p>新书</p>
+        </div>
+        <div class="column-slide swiper-slide">
+            <div class="column-bg">
+                <img src="images/3.gif">
+            </div>
+            <p>免费</p>
+        </div>
+        <div class="column-slide swiper-slide">
+            <div class="column-bg">
+                <img src="images/4.gif">
+            </div>
+            <p>热销</p>
+        </div>
+    </div>
+    <!--需要焦点按钮时可加上以下代码-->
+    <div class="column-pagination pagination"></div>
+</div>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    var mySwiper=new Swiper(".column-container",{
+        loop:true,
+        pagination:".column-pagination",
+        slidePerView:"auto",
+        paginationClickable:true,
+        slidesPerGroup:3,
+        speed:600
+    });
+</script>
+</body>
+</html>
